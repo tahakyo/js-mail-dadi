@@ -13,3 +13,9 @@ for (let i = 0; i < emailList.length; i++) {
     }
 }
 console.log(mailFound);
+// Stampo un messaggio per l utente per indiare se la mail è corretta o no
+if (mailFound) {
+    alert('benvenuto')
+} else {
+    alert('Accesso negato')
+}
